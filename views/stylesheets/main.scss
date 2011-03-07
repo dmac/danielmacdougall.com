@@ -64,6 +64,7 @@ a:hover {
         height: 40px;
         background-image: url(/images/twitter.png);
         background-size: 60px 60px;
+        -moz-background-size: 60px 60px;
         background-position: -5px -5px;
       }
 
@@ -75,6 +76,7 @@ a:hover {
         height: 40px;
         background-image: url(/images/octocat.png);
         background-size: 45px 45px;
+        -moz-background-size: 45px 45px;
         background-position: 0px 1px;
       }
 
