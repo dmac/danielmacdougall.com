@@ -73,12 +73,12 @@ a:hover {
 
       .github {
         height: 40px;
-        background-image: url(/images/octocat.png);
+        background-image: url(/images/github.png);
         background-size: 45px 45px;
         -moz-background-size: 45px 45px;
         background-position: 0px 1px;
         &:hover {
-          background-image: url(/images/octocat-hover.png);
+          background-image: url(/images/github-hover.png);
         }
       }
     }
