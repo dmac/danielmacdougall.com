@@ -28,6 +28,10 @@ a:hover {
   border-bottom: 1px solid $darkcolor;
 }
 
+.left {
+  float: left;
+}
+
 #mainTitleBackground {
   background: $darkcolor;
   color: $lightcolor;
@@ -94,13 +98,23 @@ a:hover {
 #aboutme {
   margin: 40px 0px 80px 0px;
 
-  img {
-    float: left;
-    margin-right: 40px;
+  .left {
     width: 100px;
-    height: 100px;
-    border: 2px solid $darkcolor;
+    text-align: center;
+    margin-right: 40px;
+
+    img {
+      width: 100px;
+      height: 100px;
+      border: 2px solid $darkcolor;
+      margin-bottom: 5px;
+    }
+
+    .email {
+      font-size: 0.8em;
+    }
   }
+
 
   p {
     margin-bottom: 21px;
