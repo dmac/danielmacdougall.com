@@ -1,2 +1,2 @@
-require "danielmacdougall"
+require "./danielmacdougall"
 run Sinatra::Application
