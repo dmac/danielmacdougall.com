@@ -7,6 +7,10 @@ get "/" do
   erb :index
 end
 
+get "/gps" do
+  erb :gps
+end
+
 get "/main.css" do
   scss :"stylesheets/main"
 end

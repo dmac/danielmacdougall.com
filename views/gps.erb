@@ -1,0 +1,23 @@
+<div id="gpsContent">
+  <div id="gpsDescription">
+    <p>An experiment in life-logging.</p>
+  </div>
+
+  <p id="gpsDate">March 22, 2012 - April 9, 2012</p>
+  <div id="mapCanvas"></div>
+
+  <script type="text/javascript"
+    src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBld-9clI53PWqostHG3Ml0IvXgr0TUuT4&sensor=false">
+  </script>
+  <script type="text/javascript">
+    var centerLatLng = new google.maps.LatLng(37.383253,-122.00798);
+    var options = {
+      zoom: 11,
+      center: centerLatLng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+    }
+    var map = new google.maps.Map(document.getElementById("mapCanvas"), options);
+    var kml = new google.maps.KmlLayer("http://danielmacdougall.com/gps/master.kml");
+    kml.setMap(map);
+  </script>
+</div>
