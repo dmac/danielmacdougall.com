@@ -1,3 +1,3 @@
 #!/bin/sh
 
-nohup thin -R config.ru start &
+RACK_ENV="production" nohup thin -R config.ru start &
